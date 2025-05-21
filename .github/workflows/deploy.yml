@@ -50,6 +50,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
+          artifact: .vitepress/dist
           target-repository: imgsplit/imgsplit.github.io
           target-branch: main
           token: ${{ secrets.GH_PAGES_TOKEN }}
