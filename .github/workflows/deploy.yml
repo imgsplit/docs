@@ -39,3 +39,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_PAGES_TOKEN }}
           external_repository: imgsplit/imgsplit.github.io
+          publish_dir: .vitepress/dist
