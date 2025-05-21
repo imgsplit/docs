@@ -48,9 +48,8 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          artifact: .vitepress/dist
-          repository: imgsplit/imgsplit.github.io
-          branch: main
-          token: ${{ secrets.GH_PAGES_TOKEN }}
+          deploy_key: ${{ secrets.GH_PAGES_TOKEN }}
+          external_repository: imgsplit/imgsplit.github.io
+          publish_branch: main
