@@ -46,10 +46,14 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          path: ./public
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.GH_PAGES_TOKEN }}
           external_repository: imgsplit/imgsplit.github.io
-          publish_dir: .vitepress/dist
