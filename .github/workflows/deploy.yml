@@ -17,6 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,6 +36,7 @@ jobs:
       - name: Build Docs
         run: yarn run docs:build
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.GH_PAGES_TOKEN }}
