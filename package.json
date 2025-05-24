@@ -22,7 +22,7 @@
     "vitepress-plugin-group-icons": "^1.3.8"
   },
   "devDependencies": {
-    "@imgsplit/core": "^0.0.2",
+    "@imgsplit/core": "^0.1.1",
     "@vitejs/plugin-vue-jsx": "^4.1.2",
     "rimraf": "^6.0.1",
     "typedoc": "^0.28.1",

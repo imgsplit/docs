@@ -697,10 +697,10 @@
     local-pkg "^1.0.0"
     mlly "^1.7.4"
 
-"@imgsplit/core@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@imgsplit/core/-/core-0.0.2.tgz#11baf99b8159d5e225f8756149254e92a136a7ef"
-  integrity sha512-ZhLT/VzIceF0JGGEXqyiK5Lf1jPvh0bO1Rh0giMP3zSq3pLHzAwQ9KllObYvFKcL5dRN0WujqZcc2S0BZ+Mc8w==
+"@imgsplit/core@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@imgsplit/core/-/core-0.1.1.tgz#1750df17f40c08fd2e1f1409ebe02a02bdbf4795"
+  integrity sha512-axo/JMsos85KMxnZGcSNzMAy9iOZniYHSUcInQT5Hmlb0v33R1LnYUgp+kbw1MaFqNuzPmXQ29K+RMUh0ynsJw==
   dependencies:
     canvas "^3.1.0"
 
