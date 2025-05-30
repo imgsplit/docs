@@ -43,8 +43,9 @@ export async function getGuideSideBar(lang: string = 'en') {
         text: t('Guide'),
         collapsed: false,
         items: [
-            {text: t('quickstart'), link: `${urlPrefix}/guide/`},
-            {text: t('advanced'), link: `${urlPrefix}/guide/advanced`},
+            {text: t('Quickstart'), link: `${urlPrefix}/guide/`},
+            {text: t('Advanced'), link: `${urlPrefix}/guide/advanced`},
+            {text: t('CLI'), link: `${urlPrefix}/guide/cli`},
         ]
     };
     return guideSideBar[lang];
