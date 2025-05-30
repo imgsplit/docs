@@ -6,8 +6,8 @@ export async function i18nInit() {
         resources: {
             zh: {
                 translation: {
-                    "quickstart": "快速开始",
-                    "advanced": "进阶",
+                    "Quickstart": "快速开始",
+                    "Advanced": "进阶",
                     "Guide": "指南",
 
                     "Enumerations": "枚举",
